@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "网页转Markdown",
+  "version": "1.0",
+  "description": "将网页内容一键转换为Markdown文件",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
